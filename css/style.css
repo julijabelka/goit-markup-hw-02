@@ -11,8 +11,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--headertext-color);
+  background-color: var(--background-color);
 }
 .list {
   list-style: none;
@@ -53,15 +53,14 @@ body {
   color: var(--accent-color);
 }
 .header-mail {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.header-mail:hover {
+.header-mail:hover,
+.header-mail:focus {
   color: var(--accent-color);
 }
 .header-tel {
@@ -142,7 +141,7 @@ body {
 .work-item {
 }
 .main-team {
-  background-color: var(--background-color-mainteam);
+  background-color: var(--background-color);
 }
 .team {
   font-weight: 700;
@@ -198,7 +197,8 @@ body {
   cursor: pointer;
   background-color: var(--background-color);
 }
-.button-name:hover {
+.button-name:hover,
+.button-name:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
@@ -227,7 +227,6 @@ body {
   color: var(--headertext-color);
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -250,15 +249,16 @@ body {
 .logo-footer {
   color: var(--accent-color);
 }
+.address-footer {
+  font-style: normal;
+}
 .address-footer-list {
 }
 
 .address-item {
 }
 .address-footer-link {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
