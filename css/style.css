@@ -93,7 +93,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   letter-spacing: 0.06em;
   color: var(--background-color);
   background-color: var(--accent-color);
